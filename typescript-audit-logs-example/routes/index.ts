@@ -157,6 +157,6 @@ router.get('/logout', (req, res) => {
     res.redirect('/')
 })
 
-export default router
+export const index = router;
 
 

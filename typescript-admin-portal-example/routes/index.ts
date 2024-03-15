@@ -61,4 +61,4 @@ router.get('/launch_admin_portal', async (req, res) => {
     res.redirect(link)
 })
 
-export default router
+export const index = router;
