@@ -112,4 +112,4 @@ router.get('/clear_session', (req, res) => {
     res.redirect('/')
 })
 
-export default router
+export const index = router;

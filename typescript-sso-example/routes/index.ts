@@ -99,4 +99,4 @@ router.get('/logout', async (req: Request, res: Response) => {
   }
 })
 
-export default router
+export const index = router;
